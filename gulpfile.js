@@ -50,7 +50,7 @@ function style() {
 */
 
 
-// Copiamos  ASSETS de dist a build
+// Copiamos  ASSETS de assets a build
 function copyAssets() {
     console.log('Copying assets...');
     return (
@@ -58,7 +58,7 @@ function copyAssets() {
         .pipe(dest('./build/assets'))
     );
 }
-// Copiamos HTML de dist a build
+// Copiamos HTML de src a build
 function copyTemplates() {
     console.log('Copying templates...');
     return (
